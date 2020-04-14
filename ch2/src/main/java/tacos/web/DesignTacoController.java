@@ -74,7 +74,7 @@ public void addIngredientsToModel(Model model) {
 
 //tag::processDesignValidated[]
   @PostMapping
-  public String processDesign(@Valid @ModelAttribute("design") Taco design, Errors errors, Model model) {
+  public String processDesign(@ModelAttribute("design") @Valid Taco design, Errors errors, Model model) {
     if (errors.hasErrors()) {
       return "design";
     }
