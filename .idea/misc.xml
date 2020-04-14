@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ch2/pom.xml" />
+        <option value="$PROJECT_DIR$/ch03-jdbc/pom.xml" />
       </list>
     </option>
   </component>

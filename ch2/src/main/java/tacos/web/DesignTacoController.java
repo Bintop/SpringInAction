@@ -53,6 +53,9 @@ public void addIngredientsToModel(Model model) {
   @GetMapping
   public String showDesignForm(Model model) {
     model.addAttribute("design", new Taco());
+
+    log.info("Design get mapping");
+
     return "design";
   }
 
